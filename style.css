@@ -70,12 +70,15 @@ html {
     align-items: center;
   }
   .video-container {
-    height: 75vh;
+    height: 70vh;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #fullscreen-video {
     /* Adjust styles for tablets */
+  }
+  .video-container {
+    height: 48vh;
   }
 }
